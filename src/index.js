@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import Resume from './Resume';
+import data from './data';
+import 'tachyons/css/tachyons.min.css';
 
 ReactDOM.render(
-  <App />,
+  <Resume data={data}/>,
   document.getElementById('root')
 );
