@@ -4,11 +4,11 @@ import moment from 'moment';
 const Project = ({
   data,
 }) => {
-  const { name, technologies, links, startDate, endDate, description } = data;
+  const { name, technologies, links, startDate, description } = data;
   return (
     <div>
       <div className="f4 mb1 flex">
-        <span className="b ttc">{name}</span>
+        <span className="fw6 ttc">{name}</span>
         {
           links.map((link, i) => (
             <span key={i} className="flex items-center f5">
@@ -37,10 +37,6 @@ const Project = ({
     </div>
   );
 };
-
-function ParenthasizedList(items) {
-  return `(${items.join(' | ')})`
-}
 
 Project.propTypes = {
   data: PropTypes.object.isRequired,

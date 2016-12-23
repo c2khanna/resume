@@ -88,7 +88,7 @@ export default {
         'Complete regression testing of the iOS and Android application',
       ],
     }, {
-      jobTitle: 'Bussiness Solutions Co-op',
+      jobTitle: 'Bussiness Solutions Intern',
       company: 'SSA Infosystems',
       startDate: '2014-05-01',
       endDate: '2014-08-30',

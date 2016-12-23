@@ -7,7 +7,7 @@ import 'tachyons/css/tachyons.min.css';
 import './styles.css';
 
 ReactDOM.render(
-  <div className="bg-light-silver">
+  <div className="bg-light-silver avenir sans-serif">
     <ResumeContainer className="bg-white">
       <Resume data={data}/>
     </ResumeContainer>

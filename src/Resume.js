@@ -8,20 +8,22 @@ const Resume = ({
   data,
 }) => {
   return (
-    <div className="h-100 pv3">
-      <div className="f1 tc pb1">{data.name}</div>
-      <div className="f4 tc pb3">
-        {data.education.university.term} {data.education.university.program}
+    <div className="h-100 flex flex-column">
+      <div className="white pv4 title-bg-color">
+        <div className="f1 tc pb1 ttu">{data.name}</div>
+        <div className="f4 tc">
+          {data.education.university.term} {data.education.university.program}
+        </div>
       </div>
-      <div className="flex">
-        <div className="w-25 pl3 pr2">
+      <div className="flex flex-auto">
+        <div className="w-25 pa3 pt3 heading-bg-color">
           <Sidebar
             languages={data.skills.languages}
             technologies={data.skills.technologies}
             education={data.education}
             links={data.links}/>
         </div>
-        <div className="w-75 pl2 pr3">
+        <div className="w-75 pl3 pr3">
           <SectionContainer heading="Work Experience">
             {
               data.experience.jobs.map((job, i) => {
