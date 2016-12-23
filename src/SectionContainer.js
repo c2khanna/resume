@@ -5,10 +5,11 @@ const SectionContainer = ({
   children,
 }) => {
   return (
-    <div className="pa2">
-      <div className="f3">{heading}</div>
-      <hr/>
-      {children}
+    <div className="pa2 pb0 pt3">
+      <div className="f3 ttu pa2 pb1 heading-bg-color">{heading}</div>
+      <div className="mt3">
+        {children}
+      </div>
     </div>
   );
 };

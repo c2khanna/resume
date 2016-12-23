@@ -8,7 +8,7 @@ const WorkEx = ({
   return (
     <div>
       <div className="f4 mb1">
-        <span className="b ttc">{jobTitle}, </span>
+        <span className="fw6 ttc">{jobTitle}, </span>
         <span className="ttu">{company}</span>
       </div>
       <div className="silver">
@@ -23,7 +23,7 @@ const WorkEx = ({
       </ul>
     </div>
   );
-}
+};
 
 WorkEx.propTypes = {
   data: PropTypes.object.isRequired,

@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import SidebarList from './SidebarList';
+import SidebarSection from './SidebarSection';
 import moment from 'moment';
 
 const Sidebar = ({
@@ -9,35 +10,35 @@ const Sidebar = ({
   education,
 }) => {
   return (
-    <div>
-      <div className="tr pb4">
-        <div className="f3 mb2">Contact Info</div>
-        {
-          links.map((link, index) => (
-            <div key={index}>
-              <span className="pr1">
-                {link.type}:
-              </span>
-              <a className="link" href={link.ref}>
-                {link.display}
-              </a>
-            </div>
-          ))
-        }
+    <div className="h-100 pt2 flex flex-column justify-between">
+      <div>
+        <SidebarSection heading="Languages">
+          <SidebarList items={getSortedLanguages(languages)}/>
+        </SidebarSection>
+        <SidebarSection heading="Technologies">
+          <SidebarList items={technologies}/>
+        </SidebarSection>
+        <SidebarSection heading="Contacts">
+          {
+            links.map((link, index) => (
+              <div key={index} className="pb1">
+                <span className="pr1">
+                  {link.type}:
+                </span>
+                <a className="link" href={link.ref}>
+                  {link.display}
+                </a>
+              </div>
+            ))
+          }
+        </SidebarSection>
       </div>
-      <SidebarList
-        className="pb4"
-        items={getSortedLanguages(languages)}
-        title="Languages"/>
-      <SidebarList
-        className="pb4"
-        items={technologies} title="Technologies"/>
-      <div className="tr pb4">
-        <div className="f3 mb2">Education</div>
-        <div>
-          <div>Candidate for {education.university.degree}</div>
+      <div>
+        <SidebarSection heading="Education">
+          <div className="b pb1">{education.university.name}</div>
+          <div className="pb1">Candidate for {education.university.degree}</div>
           <div>{moment(education.university.startDate).format('MMMM YYYY')} - Present</div>
-        </div>
+        </SidebarSection>
       </div>
     </div>
   );
