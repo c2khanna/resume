@@ -149,9 +149,13 @@ export default {
       startDate: '2015-12-01',
       endDate: '2015-12-30',
       links: [{
+        type: 'GitHub',
+        display: 'github.com/c2khanna/RAJ',
+        ref: 'https://github.com/c2khanna/RAJ',
+      }, {
         type: 'Demo',
-        display: 'oilmilltechnology.com',
-        ref: 'https://www.oilmilltechnology.com',
+        display: 'c2khanna.github.io/RAJ/',
+        ref: 'http://c2khanna.github.io/RAJ/',
       }],
       description: [
         'Developed a website for Rajdhani Expeller Industries',
