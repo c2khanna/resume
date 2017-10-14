@@ -2,9 +2,11 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://c2khanna.github.io/resume",
   "devDependencies": {
     "classnames": "^2.2.5",
     "eslint-config-rsnara": "^2.0.0",
+    "gh-pages": "^1.0.0",
     "moment": "^2.17.1",
     "react-scripts": "0.8.4",
     "tachyons": "^4.6.1"
@@ -14,6 +16,7 @@
     "react-dom": "^15.4.1"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
