@@ -29,7 +29,7 @@ export default {
   skills: {
     languages: [{
       name: 'JavaScript',
-      proficiency: 0.4,
+      proficiency: 0.5,
     }, {
       name: 'Java',
       proficiency: 0.8,
@@ -43,13 +43,12 @@ export default {
       name: 'SQL',
       proficiency: 0.6,
     }, {
-      name: 'BASH',
-      proficiency: 0.3,
+      name: 'Python',
+      proficiency: 0.9,
     }],
     technologies: [
       'Visual Studio',
-      'WebMethods',
-      'Eclipse',
+      'IntelliJ',
       'REST APIs',
       'Git',
       'Unix',
@@ -57,6 +56,25 @@ export default {
   },
   experience: {
     jobs: [{
+      jobTitle: 'Software Developer',
+      company: 'OpenText CORPORATION',
+      startDate: '2017-09-01',
+      endDate: 'Present',
+      description: [
+        'Updated desktop client with a new sharing permission level of a cloud-based content management system',
+        'Created end to end test suite for the new permission level to aid development',
+      ],
+    }, {
+      jobTitle: 'Software Developer',
+      company: 'OpenText CORPORATION',
+      startDate: '2017-01-01',
+      endDate: '2017-04-30',
+      description: [
+        'Maintained desktop application for cloud-based content management system',
+        'Enhanced synchronization engine to improve accuracy of image overlays in Windows Explorer and Mac Finder',
+        'Created end to end tests using pytest and increased test coverage to 60%',
+      ],
+    }, {
       jobTitle: 'Programmer Analyst-I',
       company: 'TELUS CORPORATION',
       startDate: '2016-05-01',
@@ -75,7 +93,6 @@ export default {
         'Developed a service with a RESTful API to establish communication between the database and the front-end of a web application',
         'Enhanced the in-house report management system using SQL stored procedures',
         'Implemented an interactive training module using AngularJS backed by a SOAP based service',
-        'Built macros for MS Excel using VBA',
       ],
     }, {
       jobTitle: 'Mobile Web Developer',
@@ -86,15 +103,6 @@ export default {
         'Developed a web application and REST API to deliver dynamic content to mobile apps, including documentation and unit tests',
         'Implemented automated tests using SPOCK testing framework',
         'Complete regression testing of the iOS and Android application',
-      ],
-    }, {
-      jobTitle: 'Bussiness Solutions Intern',
-      company: 'SSA Infosystems',
-      startDate: '2014-05-01',
-      endDate: '2014-08-30',
-      description: [
-        'Developed a Windows Mobile application to utilize RFID for inventory tracking, using C# & symbol.dll',
-        'Tested functionality and UI/UX of a responsive web application on various devices',
       ],
     }],
     projects: [{

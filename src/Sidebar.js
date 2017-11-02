@@ -10,7 +10,7 @@ const Sidebar = ({
   education,
 }) => {
   return (
-    <div className="h-100 pt2 flex flex-column justify-between">
+    <div className="h-100 flex flex-column justify-between">
       <div>
         <SidebarSection heading="Languages">
           <SidebarList items={getSortedLanguages(languages)}/>

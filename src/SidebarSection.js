@@ -5,7 +5,7 @@ const SidebarSection = ({
   children,
 }) => {
   return (
-    <div className="tr pb4">
+    <div className="tr pb3">
       <div className="f3 mb1 ttu">{heading}</div>
       <div>{children}</div>
     </div>
