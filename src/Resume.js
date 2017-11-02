@@ -16,7 +16,7 @@ const Resume = ({
         </div>
       </div>
       <div className="flex flex-auto">
-        <div className="w-25 pa3 pt3 heading-bg-color">
+        <div className="w-25 pa3 heading-bg-color">
           <Sidebar
             languages={data.skills.languages}
             technologies={data.skills.technologies}

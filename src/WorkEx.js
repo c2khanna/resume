@@ -12,9 +12,11 @@ const WorkEx = ({
         <span className="ttu">{company}</span>
       </div>
       <div className="silver">
-        {moment(startDate).format('MMMM YYYY')} - {moment(endDate).format('MMMM YYYY')}
+        {moment(startDate).format('MMMM YYYY')} -
+        {(moment(endDate).isValid()) ?
+          moment(endDate).format('MMMM YYYY') : 'Present'}
       </div>
-      <ul className="mt2">
+      <ul className="mt1">
         {
           description.map((line, index) => {
             return <li className="mb1" key={index}>{line}</li>;
