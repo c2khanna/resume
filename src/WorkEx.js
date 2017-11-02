@@ -12,8 +12,7 @@ const WorkEx = ({
         <span className="ttu">{company}</span>
       </div>
       <div className="silver">
-        {moment(startDate).format('MMMM YYYY')} -
-        {(moment(endDate).isValid()) ?
+        {moment(startDate).format('MMMM YYYY')} - {(moment(endDate).isValid()) ?
           moment(endDate).format('MMMM YYYY') : 'Present'}
       </div>
       <ul className="mt1">

@@ -23,7 +23,7 @@ const Resume = ({
             education={data.education}
             links={data.links}/>
         </div>
-        <div className="w-75 pl3 pr3">
+        <div className="w-75 pl3 pt2 pr3">
           <SectionContainer heading="Work Experience">
             {
               data.experience.jobs.map((job, i) => {

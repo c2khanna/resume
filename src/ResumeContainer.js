@@ -7,7 +7,7 @@ const ResumeContainer = ({
   className = '',
 }) => (
   <div
-    style={{...baseStyles, ...style}}
+    style={{ ...baseStyles, ...style }}
     className={cx('center', className)}>
     {children}
   </div>
