@@ -14,13 +14,15 @@ export default {
     type: 'GitHub',
     display: 'github.com/c2khanna',
     ref: 'https://github.com/c2khanna',
+  }, {
+    type: 'LinkedIn',
+    display: 'Chaitanya Khanna',
+    ref: 'https://www.linkedin.com/in/c2khanna/',
   }],
   education: {
     university: {
       name: 'University of Waterloo',
-      program: 'Computer Engineering',
       degree: 'BASc Computer Engineering',
-      term: '4A',
       startDate: '2013-09-01',
       endDate: '2018-05-01',
       done: false,
@@ -29,7 +31,7 @@ export default {
   skills: {
     languages: [{
       name: 'JavaScript',
-      proficiency: 0.5,
+      proficiency: 0.7,
     }, {
       name: 'Java',
       proficiency: 0.8,
@@ -75,16 +77,6 @@ export default {
         'Created end to end tests using pytest and increased test coverage to 60%',
       ],
     }, {
-      jobTitle: 'Programmer Analyst-I',
-      company: 'TELUS CORPORATION',
-      startDate: '2016-05-01',
-      endDate: '2016-08-30',
-      description: [
-        'Optimized SQL queries by creating SQL indexes and adding index hints',
-        'Developed a service to asynchronously execute SQL queries using WebMethods',
-        'Created a cluster and a sender/receiver app for continuous message processing; processed 5 to 10kb messages at up to 60,000 msgs/hr',
-      ],
-    }, {
       jobTitle: 'Programmer Analyst',
       company: 'ONTARIO TEACHERS’ PENSION PLAN BOARD',
       startDate: '2015-09-01',
@@ -106,8 +98,36 @@ export default {
       ],
     }],
     projects: [{
+      name: 'Affine Weddings',
+      technologies: [
+        'ReactJS',
+        'Node.js',
+        'AWS',
+      ],
+      startDate: '2017-10-15',
+      endDate: '2017-11-15',
+      links: [{
+        type: 'GitHub',
+        display: 'github.com/c2khanna/affine_wedding',
+        ref: 'https://github.com/c2khanna/affine_wedding',
+      }, {
+        type: 'Demo',
+        display: 'affineweddings.com',
+        ref: 'http://www.affineweddings.com',
+      }],
+      description: [
+        'A single-page application website for a local wedding planning company',
+        'Developed the application using ReactJS and styled it using CSS',
+        'Implemented inquiry form by incorporating Amazon Web Services\' Lambda functions and Simple Email Service',
+        'Deployed website using AWS S3 and Route53',
+      ],
+    }, {
       name: 'Can you even Uber',
-      technologies: ['AngularJS', 'HTML5', 'CSS'],
+      technologies: [
+        'AngularJS',
+        'HTML5',
+        'CSS',
+      ],
       startDate: '2016-03-01',
       endDate: '2016-03-30',
       links: [{
@@ -145,29 +165,6 @@ export default {
       description: [
         'A Node.js based application that Queries the LCBO product list to extract all current items on sale',
         'Responsive frontend design written with AngularJS and Angular Material',
-      ],
-    }, {
-      name: 'Rajdhani Expeller Industries',
-      technologies: [
-        'HTML',
-        'AngularJS',
-        'CSS',
-        'PHP',
-      ],
-      startDate: '2015-12-01',
-      endDate: '2015-12-30',
-      links: [{
-        type: 'GitHub',
-        display: 'github.com/c2khanna/RAJ',
-        ref: 'https://github.com/c2khanna/RAJ',
-      }, {
-        type: 'Demo',
-        display: 'c2khanna.github.io/RAJ/',
-        ref: 'http://c2khanna.github.io/RAJ/',
-      }],
-      description: [
-        'Developed a website for Rajdhani Expeller Industries',
-        'Used Bootstrap to make the website mobile responsive',
       ],
     }],
   },

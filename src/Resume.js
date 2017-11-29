@@ -12,7 +12,7 @@ const Resume = ({
       <div className="white pv4 title-bg-color">
         <div className="f1 tc pb1 ttu">{data.name}</div>
         <div className="f4 tc">
-          {data.education.university.term} {data.education.university.program}
+          Software Developer
         </div>
       </div>
       <div className="flex flex-auto">
