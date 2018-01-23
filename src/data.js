@@ -61,9 +61,10 @@ export default {
       jobTitle: 'Software Developer',
       company: 'OpenText CORPORATION',
       startDate: '2017-09-01',
-      endDate: 'Present',
+      endDate: '2017-12-30',
       description: [
         'Updated desktop client with a new sharing permission level of a cloud-based content management system',
+        'Improved user experience to help users locate sync errors easily',
         'Created end to end test suite for the new permission level to aid development',
       ],
     }, {
