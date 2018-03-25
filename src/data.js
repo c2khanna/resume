@@ -60,6 +60,11 @@ export default {
     jobs: [{
       jobTitle: 'Software Developer',
       company: 'OpenText CORPORATION',
+      technologies: [
+        'Python',
+        'Node.js',
+        'AngularJS',
+      ],
       startDate: '2017-09-01',
       endDate: '2017-12-30',
       description: [
@@ -70,6 +75,11 @@ export default {
     }, {
       jobTitle: 'Software Developer',
       company: 'OpenText CORPORATION',
+      technologies: [
+        'Python',
+        'Node.js',
+        'AngularJS',
+      ],
       startDate: '2017-01-01',
       endDate: '2017-04-30',
       description: [
@@ -80,6 +90,11 @@ export default {
     }, {
       jobTitle: 'Programmer Analyst',
       company: 'ONTARIO TEACHERS’ PENSION PLAN BOARD',
+      technologies: [
+        'C#',
+        'AngularJS',
+        'SQL',
+      ],
       startDate: '2015-09-01',
       endDate: '2015-12-30',
       description: [
@@ -90,6 +105,11 @@ export default {
     }, {
       jobTitle: 'Mobile Web Developer',
       company: 'Canadian Blood Services',
+      technologies: [
+        'Groovy',
+        'REST',
+        'Spock',
+      ],
       startDate: '2015-01-02',
       endDate: '2015-04-30',
       description: [

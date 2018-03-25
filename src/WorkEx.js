@@ -4,16 +4,20 @@ import moment from 'moment';
 const WorkEx = ({
   data,
 }) => {
-  const { jobTitle, company, startDate, endDate, description } = data;
+  const { jobTitle, company, technologies, startDate, endDate, description } = data;
   return (
     <div className="pv1">
       <div className="f4 mb1">
         <span className="fw6 ttc">{jobTitle}, </span>
         <span className="ttu">{company}</span>
       </div>
-      <div className="silver">
-        {moment(startDate).format('MMMM YYYY')} - {(moment(endDate).isValid()) ?
-          moment(endDate).format('MMMM YYYY') : 'Present'}
+      <div>
+        ({technologies.join(' | ')})
+        &nbsp;-&nbsp;
+        <span className="silver">
+          {moment(startDate).format('MMMM YYYY')} - {(moment(endDate).isValid()) ?
+            moment(endDate).format('MMMM YYYY') : 'Present'}
+        </span>
       </div>
       <ul className="mt1">
         {
