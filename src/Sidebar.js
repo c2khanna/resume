@@ -36,8 +36,9 @@ const Sidebar = ({
       <div>
         <SidebarSection heading="Education">
           <div className="b pb1">{education.university.name}</div>
-          <div className="pb1">Candidate for {education.university.degree}</div>
-          <div>{moment(education.university.startDate).format('MMMM YYYY')} - Present</div>
+          <div className="pb1">{education.university.degree}</div>
+          <div>{moment(education.university.startDate).format('MMMM YYYY')} -
+            &nbsp;{moment(education.university.endDate).format('MMMM YYYY')}</div>
         </SidebarSection>
       </div>
     </div>

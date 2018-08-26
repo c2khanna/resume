@@ -24,20 +24,14 @@ export default {
       name: 'University of Waterloo',
       degree: 'BASc Computer Engineering',
       startDate: '2013-09-01',
-      endDate: '2018-05-01',
-      done: false,
+      endDate: '2018-04-30',
+      done: true,
     },
   },
   skills: {
     languages: [{
-      name: 'JavaScript',
-      proficiency: 0.7,
-    }, {
-      name: 'Java',
-      proficiency: 0.8,
-    }, {
-      name: 'C#',
-      proficiency: 0.8,
+      name: 'JavaScript/ES6',
+      proficiency: 0.9,
     }, {
       name: 'HTML/CSS',
       proficiency: 0.7,
@@ -46,18 +40,38 @@ export default {
       proficiency: 0.6,
     }, {
       name: 'Python',
-      proficiency: 0.9,
+      proficiency: 0.8,
+    }, {
+      name: 'Java',
+      proficiency: 0.6,
+    }, {
+      name: 'C#',
+      proficiency: 0.5,
     }],
     technologies: [
-      'Visual Studio',
-      'IntelliJ',
       'REST APIs',
+      'WebSockets',
       'Git',
       'Unix',
     ],
   },
   experience: {
     jobs: [{
+      jobTitle: 'Full Stack Developer',
+      company: 'Go Ubiq Inc. (YC S17)',
+      technologies: [
+        'ReactJS',
+        'Redux',
+        'SASS',
+      ],
+      startDate: '2018-06-02',
+      endDate: '',
+      description: [
+        'Developed a new web conferencing application using React and Redux',
+        'Integrated Twilio call API for VOIP and dial out capabilities',
+        'Implemented user feedback over iterations to improve user interface and overall experience',
+      ],
+    }, {
       jobTitle: 'Software Developer',
       company: 'OpenText CORPORATION',
       technologies: [
@@ -101,21 +115,6 @@ export default {
         'Developed a service with a RESTful API to establish communication between the database and the front-end of a web application',
         'Enhanced the in-house report management system using SQL stored procedures',
         'Implemented an interactive training module using AngularJS backed by a SOAP based service',
-      ],
-    }, {
-      jobTitle: 'Mobile Web Developer',
-      company: 'Canadian Blood Services',
-      technologies: [
-        'Groovy',
-        'REST',
-        'Spock',
-      ],
-      startDate: '2015-01-02',
-      endDate: '2015-04-30',
-      description: [
-        'Developed a web application and REST API to deliver dynamic content to mobile apps, including documentation and unit tests',
-        'Implemented automated tests using SPOCK testing framework',
-        'Complete regression testing of the iOS and Android application',
       ],
     }],
     projects: [{
