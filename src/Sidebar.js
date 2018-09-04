@@ -5,6 +5,7 @@ import moment from 'moment';
 
 const Sidebar = ({
   languages,
+  libraries,
   technologies,
   links,
   education,
@@ -14,6 +15,9 @@ const Sidebar = ({
       <div>
         <SidebarSection heading="Languages">
           <SidebarList items={getSortedLanguages(languages)}/>
+        </SidebarSection>
+        <SidebarSection heading="Libraries">
+          <SidebarList items={libraries}/>
         </SidebarSection>
         <SidebarSection heading="Technologies">
           <SidebarList items={technologies}/>
@@ -57,6 +61,7 @@ function getSortedLanguages(languages) {
 
 Sidebar.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.object).isRequired,
+  libraries: PropTypes.arrayOf(PropTypes.string).isRequired,
   technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
   links: PropTypes.arrayOf(PropTypes.object).isRequired,
   education: PropTypes.object.isRequired,

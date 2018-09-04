@@ -19,6 +19,7 @@ const Resume = ({
         <div className="w-25 pa3 heading-bg-color">
           <Sidebar
             languages={data.skills.languages}
+            libraries={data.skills.libraries}
             technologies={data.skills.technologies}
             education={data.education}
             links={data.links}/>

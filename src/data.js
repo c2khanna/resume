@@ -48,6 +48,11 @@ export default {
       name: 'C#',
       proficiency: 0.5,
     }],
+    libraries: [
+      'ReactJS',
+      'Node.js',
+      'AngularJS',
+    ],
     technologies: [
       'REST APIs',
       'WebSockets',
