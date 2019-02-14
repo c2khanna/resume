@@ -13,3 +13,8 @@ html {
 .title-bg-color {
   background-color: #393E4F;
 }
+
+.emailLink {
+  text-decoration: none;
+  color: #ffffff;
+}

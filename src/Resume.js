@@ -12,7 +12,12 @@ const Resume = ({
       <div className="white pv4 title-bg-color">
         <div className="f1 tc pb1 ttu">{data.name}</div>
         <div className="f4 tc">
-          Software Developer
+          {data.subtitle}
+        </div>
+        <div className="tc f5">
+          <a className="emailLink" href={data.email.ref}>
+            {data.email.display}
+          </a>
         </div>
       </div>
       <div className="flex flex-auto">

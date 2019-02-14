@@ -2,14 +2,15 @@
 
 export default {
   name: 'Chaitanya Khanna',
+  email: {
+    display: 'chaitanya.khanna@capgemini.com',
+    ref: 'mailto:chaitanya.khanna@capgemini.com',
+  },
+  subtitle: 'Technical Consultant',
   links: [{
     type: 'Phone',
     display: '+1-519-572-0813',
     ref: 'tel:+15195720813',
-  }, {
-    type: 'Email',
-    display: 'c2khanna@uwaterloo.ca',
-    ref: 'mailto:c2khanna@uwaterloo.ca',
   }, {
     type: 'GitHub',
     display: 'github.com/c2khanna',
@@ -51,6 +52,7 @@ export default {
     libraries: [
       'ReactJS',
       'Node.js',
+      'Redux',
       'AngularJS',
     ],
     technologies: [
@@ -62,6 +64,21 @@ export default {
   },
   experience: {
     jobs: [{
+      jobTitle: 'Consultant',
+      company: 'Capgemini Canada Inc. (Manulife)',
+      technologies: [
+        'Node.js',
+        'ReactJS',
+        'Redux',
+      ],
+      startDate: '2018-10-15',
+      endDate: '',
+      description: [
+        'Developed and maintained the customer login portal for Manulife',
+        'Integrated single sign-on service for various other Manulife products',
+        'Improved Jest unit test coverage to 75% and enforced coverage rules in development pipelines',
+      ],
+    }, {
       jobTitle: 'Full Stack Developer',
       company: 'Go Ubiq Inc. (YC S17)',
       technologies: [
@@ -70,7 +87,7 @@ export default {
         'SASS',
       ],
       startDate: '2018-06-02',
-      endDate: '',
+      endDate: '2018-10-02',
       description: [
         'Developed a new web conferencing application using React and Redux',
         'Integrated Twilio call API for VOIP and dial out capabilities',
@@ -105,21 +122,6 @@ export default {
         'Maintained desktop application for cloud-based content management system',
         'Enhanced synchronization engine to improve accuracy of image overlays in Windows Explorer and Mac Finder',
         'Created end to end tests using pytest and increased test coverage to 60%',
-      ],
-    }, {
-      jobTitle: 'Programmer Analyst',
-      company: 'ONTARIO TEACHERS’ PENSION PLAN BOARD',
-      technologies: [
-        'C#',
-        'AngularJS',
-        'SQL',
-      ],
-      startDate: '2015-09-01',
-      endDate: '2015-12-30',
-      description: [
-        'Developed a service with a RESTful API to establish communication between the database and the front-end of a web application',
-        'Enhanced the in-house report management system using SQL stored procedures',
-        'Implemented an interactive training module using AngularJS backed by a SOAP based service',
       ],
     }],
     projects: [{
