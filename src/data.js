@@ -3,10 +3,10 @@
 export default {
   name: 'Chaitanya Khanna',
   email: {
-    display: 'chaitanya.khanna@capgemini.com',
-    ref: 'mailto:chaitanya.khanna@capgemini.com',
+    display: 'chaitanyakhanna13@gmail.com',
+    ref: 'mailto:chaitanyakhanna13@gmail.com',
   },
-  subtitle: 'Technical Consultant',
+  subtitle: 'Software Developer',
   links: [{
     type: 'Phone',
     display: '+1-519-572-0813',
@@ -19,6 +19,10 @@ export default {
     type: 'LinkedIn',
     display: 'Chaitanya Khanna',
     ref: 'https://www.linkedin.com/in/c2khanna/',
+  }, {
+    type: 'Website',
+    display: 'chaitanyakhanna.me',
+    ref: 'http://chaitanyakhanna.me'
   }],
   education: {
     university: {
@@ -44,7 +48,7 @@ export default {
       proficiency: 0.8,
     }, {
       name: 'Java',
-      proficiency: 0.6,
+      proficiency: 0.7,
     }, {
       name: 'C#',
       proficiency: 0.5,
@@ -53,11 +57,13 @@ export default {
       'ReactJS',
       'Node.js',
       'Redux',
-      'AngularJS',
+      'Angular',
+      'Spring Boot',
     ],
     technologies: [
       'REST APIs',
       'WebSockets',
+      'Microservices',
       'Git',
       'Unix',
     ],
@@ -70,13 +76,15 @@ export default {
         'Node.js',
         'ReactJS',
         'Redux',
+        'Java',
       ],
       startDate: '2018-10-15',
       endDate: '',
       description: [
-        'Developed and maintained the customer login portal for Manulife',
-        'Integrated single sign-on service for various other Manulife products',
-        'Improved Jest unit test coverage to 75% and enforced coverage rules in development pipelines',
+        'Undertook the role of technical lead for a UI reskinning project at Manulife',
+        'Developed a unified customer login portal for all Manulife products',
+        'Implemented a microservice which seamlessly authenticates users between legacy and modern applications using Spring Boot',
+        'Improved unit test coverage to 75% and enforced continuous integration rules in development pipelines',
       ],
     }, {
       jobTitle: 'Full Stack Developer',
@@ -101,27 +109,27 @@ export default {
         'Node.js',
         'AngularJS',
       ],
-      startDate: '2017-09-01',
+      startDate: '2017-01-01',
       endDate: '2017-12-30',
       description: [
+        'Maintained desktop application for cloud-based content management system',
         'Updated desktop client with a new sharing permission level of a cloud-based content management system',
-        'Improved user experience to help users locate sync errors easily',
-        'Created end to end test suite for the new permission level to aid development',
+        'Enhanced synchronization engine to improve accuracy of image overlays in Windows Explorer and Mac Finder',
       ],
     }, {
-      jobTitle: 'Software Developer',
-      company: 'OpenText CORPORATION',
+      jobTitle: 'Programmer Analyst',
+      company: 'ONTARIO TEACHERS’ PENSION PLAN BOARD',
       technologies: [
-        'Python',
-        'Node.js',
+        'C#',
         'AngularJS',
+        'SQL',
       ],
-      startDate: '2017-01-01',
-      endDate: '2017-04-30',
+      startDate: '2015-09-01',
+      endDate: '2015-12-30',
       description: [
-        'Maintained desktop application for cloud-based content management system',
-        'Enhanced synchronization engine to improve accuracy of image overlays in Windows Explorer and Mac Finder',
-        'Created end to end tests using pytest and increased test coverage to 60%',
+        'Developed a service with a RESTful API to establish communication between the database and the front-end of a web application',
+        'Enhanced the in-house report management system using SQL stored procedures',
+        'Implemented an interactive training module using AngularJS backed by a SOAP service',
       ],
     }],
     projects: [{
@@ -144,7 +152,6 @@ export default {
       }],
       description: [
         'A single-page application website for a local wedding planning company',
-        'Developed the application using ReactJS and styled it using CSS',
         'Implemented inquiry form by incorporating Amazon Web Services\' Lambda functions and Simple Email Service',
         'Deployed website using AWS S3 and Route53',
       ],
@@ -184,13 +191,9 @@ export default {
         type: 'GitHub',
         display: 'github.com/c2khanna/lcbo-sales',
         ref: 'https://github.com/c2khanna/lcbo-sales',
-      }, {
-        type: 'Demo',
-        display: 'notforthetaste.com',
-        ref: 'https://www.notforthetaste.com',
       }],
       description: [
-        'A Node.js based application that Queries the LCBO product list to extract all current items on sale',
+        'A Node.js application that queries the LCBO product list to extract all current items on sale',
         'Responsive frontend design written with AngularJS and Angular Material',
       ],
     }],

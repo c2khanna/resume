@@ -6,7 +6,7 @@ const WorkEx = ({
 }) => {
   const { jobTitle, company, technologies, startDate, endDate, description } = data;
   return (
-    <div className="pv1">
+    <div className="pb1">
       <div className="f4 mb1">
         <span className="fw6 ttc">{jobTitle}, </span>
         <span className="ttu">{company}</span>

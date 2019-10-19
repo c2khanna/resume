@@ -6,7 +6,7 @@ const Project = ({
 }) => {
   const { name, technologies, links, startDate, description } = data;
   return (
-    <div className="pv1">
+    <div className="pb1">
       <div className="f4 mb1 flex">
         <span className="fw6 ttc">{name}</span>
         {
