@@ -81,7 +81,7 @@ export default {
       startDate: '2018-10-15',
       endDate: '',
       description: [
-        'Undertook the role of technical lead for a UI reskinning project at Manulife',
+        'Undertook the role of technical lead and managed a team of six developers for a UI reskinning project at Manulife',
         'Developed a unified customer login portal for all Manulife products',
         'Implemented a microservice which seamlessly authenticates users between legacy and modern applications using Spring Boot',
         'Improved unit test coverage to 75% and enforced continuous integration rules in development pipelines',
