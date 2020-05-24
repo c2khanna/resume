@@ -76,15 +76,15 @@ export default {
         'Node.js',
         'ReactJS',
         'Redux',
-        'Java',
       ],
       startDate: '2018-10-15',
       endDate: '',
       description: [
-        'Undertook the role of technical lead and managed a team of six developers for a UI reskinning project at Manulife',
-        'Developed a unified customer login portal for all Manulife products',
-        'Implemented a microservice which seamlessly authenticates users between legacy and modern applications using Spring Boot',
-        'Improved unit test coverage to 75% and enforced continuous integration rules in development pipelines',
+        'Developed a unified customer login portal for all Manulife products using ReactJS and Node.js',
+        'Implemented state management using Redux to reduce redundant network calls and improve latency',
+        'Designed the architecture for session management to create a seamless single sign-in experience across legacy and modern Manulife products',
+        'Undertook the role of technical lead and managed a team of four developers for a UI reskinning project at Manulife',
+        'Improved unit test coverage to 75% using Jest and Enzyme and enforced continuous integration rules in development pipelines',
       ],
     }, {
       jobTitle: 'Full Stack Developer',
@@ -176,25 +176,6 @@ export default {
       description: [
         'A web application that helps you determine your eligibility to be an Uber driver',
         'Developed reusable Angular directives to use on the single page application',
-      ],
-    }, {
-      name: 'Not For The Taste',
-      technologies: [
-        'Node.js',
-        'AngularJS',
-        'MongoDB',
-        'SASS',
-      ],
-      startDate: '2016-01-01',
-      endDate: '2016-01-30',
-      links: [{
-        type: 'GitHub',
-        display: 'github.com/c2khanna/lcbo-sales',
-        ref: 'https://github.com/c2khanna/lcbo-sales',
-      }],
-      description: [
-        'A Node.js application that queries the LCBO product list to extract all current items on sale',
-        'Responsive frontend design written with AngularJS and Angular Material',
       ],
     }],
   },
