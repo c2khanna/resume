@@ -3,21 +3,27 @@ import Sidebar from './Sidebar';
 import WorkEx from './WorkEx';
 import Project from './Project';
 import SectionContainer from './SectionContainer';
+import PSDILogo from './assets/psdi.png';
 
 const Resume = ({
   data,
 }) => {
   return (
     <div className="h-100 flex flex-column">
-      <div className="white pv4 title-bg-color">
-        <div className="f1 tc pb1 ttu">{data.name}</div>
-        <div className="f4 tc">
-          {data.subtitle}
+      <div className="white flex title-bg-color items-center">
+        <div className="pl5 pv4 w-90">
+          <div className="f1 tc pb1 ttu">{data.name}</div>
+          <div className="f4 tc">
+            {data.subtitle}
+          </div>
+          <div className="tc f5">
+            <a className="emailLink" href={data.email.ref}>
+              {data.email.display}
+            </a>
+          </div>
         </div>
-        <div className="tc f5">
-          <a className="emailLink" href={data.email.ref}>
-            {data.email.display}
-          </a>
+        <div className="w-10">
+          <img src={PSDILogo} alt="PSDI Logo" height="100" width="100"/>
         </div>
       </div>
       <div className="flex flex-auto">
@@ -26,6 +32,7 @@ const Resume = ({
             languages={data.skills.languages}
             libraries={data.skills.libraries}
             technologies={data.skills.technologies}
+            certifications={data.skills.certifications}
             education={data.education}
             links={data.links}/>
         </div>

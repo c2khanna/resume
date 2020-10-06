@@ -67,6 +67,10 @@ export default {
       'Git',
       'Unix',
     ],
+    certifications: [{
+      display: 'PSD I - Scrum.org',
+      ref: 'https://www.scrum.org/certificates/576846',
+    }],
   },
   experience: {
     jobs: [{

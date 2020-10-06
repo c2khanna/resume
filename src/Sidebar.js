@@ -9,6 +9,7 @@ const Sidebar = ({
   technologies,
   links,
   education,
+  certifications,
 }) => {
   return (
     <div className="h-100 flex flex-column justify-between">
@@ -21,6 +22,17 @@ const Sidebar = ({
         </SidebarSection>
         <SidebarSection heading="Technologies">
           <SidebarList items={technologies}/>
+        </SidebarSection>
+        <SidebarSection heading="Certifications">
+          {
+            certifications.map((certificate, index) => (
+              <div key={index} className="pb1">
+                <a className="link" href={certificate.ref}>
+                  {certificate.display}
+                </a>
+              </div>
+            ))
+          }
         </SidebarSection>
         <SidebarSection heading="Contacts">
           {
@@ -65,6 +77,7 @@ Sidebar.propTypes = {
   technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
   links: PropTypes.arrayOf(PropTypes.object).isRequired,
   education: PropTypes.object.isRequired,
+  certifications: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Sidebar;
