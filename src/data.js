@@ -22,7 +22,7 @@ export default {
   }, {
     type: 'Website',
     display: 'chaitanyakhanna.me',
-    ref: 'http://chaitanyakhanna.me'
+    ref: 'http://chaitanyakhanna.me',
   }],
   education: {
     university: {
@@ -74,6 +74,7 @@ export default {
   },
   experience: {
     jobs: [{
+      isDisplayed: true,
       jobTitle: 'Consultant',
       company: 'Capgemini Canada Inc. (Manulife)',
       technologies: [
@@ -91,6 +92,7 @@ export default {
         'Improved unit test coverage to 75% using Jest and Enzyme and enforced continuous integration rules in development pipelines',
       ],
     }, {
+      isDisplayed: true,
       jobTitle: 'Full Stack Developer',
       company: 'Go Ubiq Inc. (YC S17)',
       technologies: [
@@ -106,6 +108,7 @@ export default {
         'Implemented user feedback over iterations to improve user interface and overall experience',
       ],
     }, {
+      isDisplayed: true,
       jobTitle: 'Software Developer',
       company: 'OpenText CORPORATION',
       technologies: [
@@ -121,8 +124,21 @@ export default {
         'Enhanced synchronization engine to improve accuracy of image overlays in Windows Explorer and Mac Finder',
       ],
     }, {
+      isDisplayed: false,
+      jobTitle: 'Programmer Analyst-I',
+      company: 'TELUS CORPORATION',
+      technologies: [],
+      startDate: '2016-05-01',
+      endDate: '2016-08-30',
+      description: [
+        'Optimized SQL queries by creating SQL indexes and adding index hints',
+        'Developed a service to asynchronously execute SQL queries using WebMethods',
+        'Created a cluster and a sender/receiver app for continuous message processing; processed 5 to 10kb messages at up to 60,000 msgs/hr',
+      ],
+    }, {
+      isDisplayed: true,
       jobTitle: 'Programmer Analyst',
-      company: 'ONTARIO TEACHERS’ PENSION PLAN BOARD',
+      company: 'ONTARIO TEACHERS’ PENSION PLAN',
       technologies: [
         'C#',
         'AngularJS',
@@ -134,6 +150,33 @@ export default {
         'Developed a service with a RESTful API to establish communication between the database and the front-end of a web application',
         'Enhanced the in-house report management system using SQL stored procedures',
         'Implemented an interactive training module using AngularJS backed by a SOAP service',
+      ],
+    }, {
+      isDisplayed: false,
+      jobTitle: 'Mobile Web Developer',
+      company: 'Canadian Blood Services',
+      technologies: [
+        'Groovy',
+        'REST',
+        'Spock',
+      ],
+      startDate: '2015-01-02',
+      endDate: '2015-04-30',
+      description: [
+        'Developed a web application and REST API to deliver dynamic content to mobile apps, including documentation and unit tests',
+        'Implemented automated tests using SPOCK testing framework',
+        'Complete regression testing of the iOS and Android application',
+      ],
+    }, {
+      isDisplayed: false,
+      jobTitle: 'Business Solutions Intern',
+      company: 'SSA Infosystems',
+      technologies: [],
+      startDate: '2014-05-01',
+      endDate: '2014-08-30',
+      description: [
+        'Developed a Windows Mobile application to utilize RFID for inventory tracking, using C# & symbol.dll',
+        'Tested functionality and UI/UX of a responsive web application on various devices',
       ],
     }],
     projects: [{

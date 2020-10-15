@@ -40,7 +40,7 @@ const Resume = ({
           <SectionContainer heading="Work Experience">
             {
               data.experience.jobs.map((job, i) => {
-                return <WorkEx key={i} data={job}/>;
+                return job.isDisplayed ? <WorkEx key={i} data={job}/> : null;
               })
             }
           </SectionContainer>
