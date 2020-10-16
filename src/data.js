@@ -75,7 +75,7 @@ export default {
   experience: {
     jobs: [{
       isDisplayed: true,
-      jobTitle: 'Consultant',
+      jobTitle: 'Software Consultant',
       company: 'Capgemini Canada Inc. (Manulife)',
       technologies: [
         'Node.js',
