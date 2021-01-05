@@ -19,7 +19,7 @@ const WorkEx = ({
             moment(endDate).format('MMMM YYYY') : 'Present'}
         </span>
       </div>
-      <ul className="mt1">
+      <ul className="mt2">
         {
           description.map((line, index) => {
             return <li className="mb1" key={index}>{line}</li>;

@@ -17,7 +17,7 @@ const Sidebar = ({
         <SidebarSection heading="Languages">
           <SidebarList items={getSortedLanguages(languages)}/>
         </SidebarSection>
-        <SidebarSection heading="Libraries">
+        <SidebarSection heading="Libraries & Frameworks">
           <SidebarList items={libraries}/>
         </SidebarSection>
         <SidebarSection heading="Technologies">

@@ -38,20 +38,20 @@ export default {
       name: 'JavaScript/ES6',
       proficiency: 0.9,
     }, {
+      name: 'TypeScript',
+      proficiency: 0.8,
+    }, {
       name: 'HTML/CSS',
       proficiency: 0.7,
     }, {
-      name: 'SQL',
+      name: 'Java',
       proficiency: 0.6,
     }, {
-      name: 'Python',
-      proficiency: 0.8,
-    }, {
-      name: 'Java',
-      proficiency: 0.7,
-    }, {
-      name: 'C#',
+      name: 'SQL',
       proficiency: 0.5,
+    }, {
+      name: 'Python',
+      proficiency: 0.7,
     }],
     libraries: [
       'ReactJS',
@@ -122,11 +122,12 @@ export default {
         'Maintained desktop application for cloud-based content management system',
         'Updated desktop client with a new sharing permission level of a cloud-based content management system',
         'Enhanced synchronization engine to improve accuracy of image overlays in Windows Explorer and Mac Finder',
+        'Created end to end tests using pytest for the new permission level which increased test coverage to 60% ',
       ],
     }, {
       isDisplayed: false,
       jobTitle: 'Programmer Analyst-I',
-      company: 'TELUS CORPORATION',
+      company: 'TELUS HEALTH',
       technologies: [],
       startDate: '2016-05-01',
       endDate: '2016-08-30',
@@ -136,7 +137,7 @@ export default {
         'Created a cluster and a sender/receiver app for continuous message processing; processed 5 to 10kb messages at up to 60,000 msgs/hr',
       ],
     }, {
-      isDisplayed: true,
+      isDisplayed: false,
       jobTitle: 'Programmer Analyst',
       company: 'ONTARIO TEACHERS’ PENSION PLAN',
       technologies: [
@@ -180,7 +181,34 @@ export default {
       ],
     }],
     projects: [{
+      name: 'Key Picker',
+      isDisplayed: true,
+      technologies: [
+        'Angular',
+        'Node.js',
+        'PostgreSQL',
+        'AWS',
+      ],
+      startDate: '2020-12-15',
+      endDate: '2020-12-20',
+      links: [{
+        type: 'GitHub',
+        display: 'github.com/c2khanna/key-picker',
+        ref: 'https://github.com/c2khanna/key-picker',
+      }, {
+        type: 'Demo',
+        display: 'KeyPicker',
+        ref: 'http://keypicker.s3-website.us-east-2.amazonaws.com/',
+      }],
+      description: [
+        'A single-page application which consolidates all mechanical keyboards into one sortable and filterable interface',
+        'Implemented front-end using Angular, Express server in Node.js and PostgreSQL for the mechanical keyboard database',
+        'Used knex.js library to convert filter requests into SQL queries',
+        'Deployed website using AWS S3 for the frontend, EC2 for Express server and RDS for PostgreSQL database',
+      ],
+    }, {
       name: 'Affine Weddings',
+      isDisplayed: true,
       technologies: [
         'ReactJS',
         'Node.js',
@@ -204,6 +232,7 @@ export default {
       ],
     }, {
       name: 'Can you even Uber',
+      isDisplayed: false,
       technologies: [
         'AngularJS',
         'HTML5',
@@ -223,6 +252,30 @@ export default {
       description: [
         'A web application that helps you determine your eligibility to be an Uber driver',
         'Developed reusable Angular directives to use on the single page application',
+      ],
+    }, {
+      name: 'Not For The Taste',
+      isDisplayed: false,
+      technologies: [
+        'Node.js',
+        'AngularJS',
+        'MongoDB',
+        'SASS',
+      ],
+      startDate: '2016-01-01',
+      endDate: '2016-01-30',
+      links: [{
+        type: 'GitHub',
+        display: 'github.com/c2khanna/lcbo-sales',
+        ref: 'https://github.com/c2khanna/lcbo-sales',
+      }, {
+        type: 'Demo',
+        display: 'notforthetaste.com',
+        ref: 'https://www.notforthetaste.com',
+      }],
+      description: [
+        'A Node.js based application that Queries the LCBO product list to extract all current items on sale',
+        'Responsive frontend design written with AngularJS and Angular Material',
       ],
     }],
   },

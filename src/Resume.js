@@ -47,7 +47,7 @@ const Resume = ({
           <SectionContainer heading="Projects">
             {
               data.experience.projects.map((project, i) => {
-                return <Project key={i} data={project}/>;
+                return project.isDisplayed ? <Project key={i} data={project}/> : null;
               })
             }
           </SectionContainer>
