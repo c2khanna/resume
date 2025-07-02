@@ -41,24 +41,20 @@ export default {
       name: 'TypeScript',
       proficiency: 0.8,
     }, {
-      name: 'HTML/CSS',
-      proficiency: 0.7,
-    }, {
-      name: 'Java',
-      proficiency: 0.6,
+      name: 'GraphQL',
+      proficiency: 0.8,
     }, {
       name: 'SQL',
-      proficiency: 0.5,
+      proficiency: 0.7,
     }, {
       name: 'Python',
-      proficiency: 0.7,
+      proficiency: 0.8,
     }],
     libraries: [
       'ReactJS',
       'Node.js',
       'Redux',
       'Angular',
-      'Spring Boot',
     ],
     technologies: [
       'REST APIs',
@@ -75,6 +71,25 @@ export default {
   experience: {
     jobs: [{
       isDisplayed: true,
+      jobTitle: 'Full Stack Engineer',
+      company: 'Yelp Inc.',
+      technologies: [
+        'Python',
+        'React',
+        'Typescript',
+        'GraphQL',
+      ],
+      startDate: '2021-02-21',
+      endDate: '',
+      description: [
+        'Led multiple projects that recommend new actions to business owners based on their Yelp Ads performance leading to multi-million dollar revenue growth',
+        'Created various reusable server-driven UI components which surface data-driven insights on the Yelp Ads dashboard and cancel flow to reduce churn',
+        'Improved developer experience by creating a Chrome extension that simplifies batched GraphQL queries and their responses in the browser',
+        'Collaborated with cross-functional and cross-platform partners such as product managers and designers to define scope of the projects',
+        'Actively participated in a company-wide mentorship program as a senior engineer to help other engineers achieve career goals at Yelp',
+      ],
+    },{
+      isDisplayed: true,
       jobTitle: 'Software Consultant',
       company: 'Capgemini Canada Inc. (Manulife)',
       technologies: [
@@ -83,13 +98,12 @@ export default {
         'Redux',
       ],
       startDate: '2018-10-15',
-      endDate: '',
+      endDate: '2021-02-15',
       description: [
         'Developed a unified customer login portal for all Manulife products using ReactJS and Node.js',
         'Implemented state management using Redux to reduce redundant network calls and improve latency',
         'Designed the architecture for session management to create a seamless single sign-in experience across legacy and modern Manulife products',
         'Undertook the role of technical lead and managed a team of four developers for a UI reskinning project at Manulife',
-        'Improved unit test coverage to 75% using Jest and Enzyme and enforced continuous integration rules in development pipelines',
       ],
     }, {
       isDisplayed: true,
@@ -108,7 +122,7 @@ export default {
         'Implemented user feedback over iterations to improve user interface and overall experience',
       ],
     }, {
-      isDisplayed: true,
+      isDisplayed: false,
       jobTitle: 'Software Developer',
       company: 'OpenText CORPORATION',
       technologies: [
@@ -228,7 +242,6 @@ export default {
       description: [
         'A single-page application website for a local wedding planning company',
         'Implemented inquiry form by incorporating Amazon Web Services\' Lambda functions and Simple Email Service',
-        'Deployed website using AWS S3 and Route53',
       ],
     }, {
       name: 'Can you even Uber',

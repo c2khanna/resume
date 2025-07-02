@@ -22,10 +22,10 @@ const Project = ({
       </div>
       <div>
         ({technologies.join(' | ')})
-        &nbsp;-&nbsp;
-        <span className="silver">
+        {/* &nbsp;-&nbsp; */}
+        {/* <span className="silver">
           { moment(startDate).format('MMMM YYYY')}
-        </span>
+        </span> */}
       </div>
       <ul className="mt2">
         {
