@@ -1,10 +1,10 @@
-import React, { PropTypes } from 'react';
-import moment from 'moment';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Project = ({
   data,
 }) => {
-  const { name, technologies, links, startDate, description } = data;
+  const { name, technologies, links, description } = data;
   return (
     <div className="pb2">
       <div className="f4 mb1 flex">

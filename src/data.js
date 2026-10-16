@@ -8,10 +8,6 @@ export default {
   },
   subtitle: 'Software Developer',
   links: [{
-    type: 'Phone',
-    display: '+1-519-572-0813',
-    ref: 'tel:+15195720813',
-  }, {
     type: 'GitHub',
     display: 'github.com/c2khanna',
     ref: 'https://github.com/c2khanna',
@@ -88,7 +84,7 @@ export default {
         'Collaborated with cross-functional and cross-platform partners such as product managers and designers to define scope of the projects',
         'Actively participated in a company-wide mentorship program as a senior engineer to help other engineers achieve career goals at Yelp',
       ],
-    },{
+    }, {
       isDisplayed: true,
       jobTitle: 'Software Consultant',
       company: 'Capgemini Canada Inc. (Manulife)',

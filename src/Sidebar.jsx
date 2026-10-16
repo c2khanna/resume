@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import SidebarList from './SidebarList';
 import SidebarSection from './SidebarSection';
 import moment from 'moment';
